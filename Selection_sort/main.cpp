@@ -34,7 +34,7 @@ void swap(int *a, int *b)//交换两数
 //    }
 //}
 
-//优化
+//选择排序优化
 void selection_sort(int arr[], int size)
 {
     int min,max,left = 0,right = size - 1;//min存储最小值的下标,max存储最大值的下标
